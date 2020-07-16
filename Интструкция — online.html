@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Инструкция</title>
+    <style media="screen">
+    html {
+  scroll-behavior: smooth;
+}
+table {
+    width: 90%; /* Ширина таблицы в процентах */
+   }
+   .col1{
+     width: 150px;
+   }
+      body {
+    font-family:Arial; /* Современные браузеры */
+    background: url(https://i.yapx.ru/INSQH.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+   }
+      .space{
+        background-color: white;
+        height: 100%;
+        padding: 5%;
+        opacity: 0.95;
+      }
+      a {
+          text-decoration: none;
+         }
+    </style>
+  </head>
+  <body>
+<div class="space">
+  <font size="24" color="black">Создание промежуточного файла</font><br><br>
+  <hr>
+  <br><br>
+  <font size="6" color="black">Содержание инструкции:</font>
+  <font size="5" color="black">
+    <ol>
+      <li><a href="#x11">Создание нового файла Excel</a></li>
+      <li><a href="#x12">Шаблон таблицы</a></li>
+      <li><a href="#x13">Описание полей</a></li>
+      <li><a href="#x14">Синхронизация данных</a></li>
+    </ol>
+  </font>
+</div>
+<br>
+<!--1. Новый файл-->
+<div class="space">
+  <font size="6" color="black"><p id="x11">1. Создание нового файла Excel</p></font>
+  <font size="4" color="black">Открываем Excel и создаем новый файл <b>(Пустая книга)</b></font>
+  <br><br>
+  <img src="https://i.yapx.ru/INSP1.png" alt="" width="90%">
+  <br><br>
+  <font size="4" color="black">На экране мы должны увидеть пустую табличку, как на картинке снизу</font>
+  <br><br>
+  <img src="https://i.yapx.ru/INSP2.png" alt="" width="90%">
+  <br><br>
+</div>
+<br>
+<!--2. Шаблон таблицы-->
+<div class="space">
+  <font size="6" color="black"><p id="x12">2. Шаблон таблицы</p></font>
+  <font size="4" color="black">Теперь нам нужно подготовить наш промежуточный файл, чтобы в будущем корректно вносить все наши данные.<br>
+    Для этого нужно скачать следующий Excel файл, в нем есть нужные нам поля,
+    а также их описание.</font>
+    <br><br><br>
+    <center><a href="ССЫЛКА НА ФАЙЛ Excel"><img src="https://i.yapx.ru/INSP5.png" width="150" alt="Пример"></center>
+    <br>
+    <font size="4" color="black">В скачанном файле нас интересует <b>первая строка</b> с названиями колонок.<br>
+      По нажатию на номер строки или с помощью левой кнопки мышки <b>выделяем всю строку.</b><br>
+      Нажимаем на выделенную строку правой кнопкой мышки и выбираем пункт <b>“Копировать”</b><br>
+      <em>(также для копирования можно использовать сочетание клавиш CTRL + C)</em></font>
+      <br><br>
+    <img src="https://i.yapx.ru/INSP9.png" alt="" width="90%">
+    <br><br>
+    <font size="4" color="black">Теперь открываем наш созданный пустой файл и вставляем в него скопированную строку.</font>
+    <br><br>
+    <img src="https://i.yapx.ru/INSQA.png" alt="" width="90%">
+    <br><br><br>
+    <font size="4" color="black"><center><b>*** При вставке строки важно выбрать самую верхнюю левую ячейку A1 ***</b></center></font>
+    <br><br>
+    <font size="4" color="black">По итогу у нас должен получится следующий результат</font>
+    <br><br>
+    <img src="https://i.yapx.ru/INSQD.png" alt="" width="90%">
+    <br><br>
+</div>
+<br>
+<!--3. Описание полей-->
+<div class="space">
+  <font size="6" color="black"><p id="x13">3. Описание полей</p></font>
+  <font size="4" color="black"><p id="x13">В скачанном файле "Шаблон таблицы.xlsx" есть отдельная страница с описанием всех полей таблицы.</p></font>
+  <img src="https://i.yapx.ru/INSQF.png" alt="" width="90%">
+  <br><br>
+  <font size="4" color="black">Также для вашего удобства, описание полей, обязательных и справочных колонок приведено в таблице ниже.</font>
+  <br><br>
+  <ul>
+    <li><font size="4" color="red" style="background:#FFFFCC">Красным + фон</font>
+      <font size="4" color="black"> - колонки - обязательные при загрузке файла</font></li>
+      <li><font size="4" color="red">Красным</font>
+        <font size="4" color="black"> - колонки - редактируемые, - обязательные при создании товара|услуги</font></li>
+        <li><font size="4" color="green">Зеленым</font>
+          <font size="4" color="black"> - колонки - редактируемые</font></li>
+          <li><font size="4" color="orange">Оранжевым</font>
+            <font size="4" color="black"> - колонки - редактируемые, “логические” - влияют на другие</font></li>
+            <li><font size="4" color="gray">Серым</font>
+              <font size="4" color="black"> - колонки - “справочные” для информации, вспомогательные</font></li>
+  </ul>
+  <br><br>
+  <table border="1">
+    <thead>
+      <tr>
+        <th class="col1"><font size="4" color="black">Поле</font></th>
+        <th><font size="4" color="black">Описание</font></th>
+      </tr>
+      <tbody>
+        <tr>
+          <td align="center"><font color="black">d_ordExl</font></td>
+          <td ><font color="black"> - порядковый номер строки при выгрузке в файл</font></td>
+        </tr>
+        <tr>
+          <td align="center"><font color="black">d_firmShortName</font></td>
+          <td ><font color="black">  - краткое название фирмы </font></td>
+        </tr>
+        <tr>
+          <td align="center"><font color="red">d_firmID</font></td>
+          <td ><font color="black">  - идентификатор фирмы </font></td>
+        </tr>
+        <tr>
+          <td align="center"><font color="black">d_ctuName</font></td>
+          <td ><font color="black">   - название “Категории Маркета” ... _изменить_категорию_ (подробнее в Инструкции)</font></td>
+        </tr>
+        <tr>
+          <td align="center"><font color="red">d_ctuID</font></td>
+          <td ><font color="black">    - идентификатор “Категории Маркета” </font></td>
+        </tr>
+      </tbody>
+    </thead>
+  </table>
+
+</div>
+
+  </body>
+</html>
